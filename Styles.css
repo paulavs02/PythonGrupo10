@@ -4,6 +4,9 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  /* Establecer el fondo amarillo */
+  background-color: rgba(235, 244, 155, 0.693);
+
 }
 
 /* Navbar */

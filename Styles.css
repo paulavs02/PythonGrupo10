@@ -1,0 +1,97 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar-nav {
+  display: flex;
+  justify-content: right;
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-nav a:last-child {
+  color: rgb(231, 247, 89);
+}
+
+/* Tarjetas de Jugador */
+.card-custom {
+  display: flex;
+  max-width: 280px;
+  justify-content: center;
+  align-self: center;
+}
+
+/* Etiquetas de Jugador */
+.jugador-tag {
+  display: inline-block;
+  font-size: 12px;
+  padding: 4px;
+  border-radius: 20%;
+}
+.jugador-tag1 {
+  background-color: #fffb07;
+}
+.jugador-tag2 {
+  background-color: #4cb8b4;
+  color: #fff;
+}
+.jugador-tag3 {
+  background-color: #2989e9;
+  color: #fff;
+}
+.jugador-tag4 {
+  background-color: #de3647;
+  color: #fff;
+}
+
+/* Imágenes */
+.img1 {
+  width: 50vw;
+  height: auto;
+  object-fit: cover;
+}
+@media (max-width: 991px) {
+  .img1 {
+      width: 100vw;
+  }
+}
+
+/* Formulario de Contacto */
+.contacto-formulario {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 20px;
+}
+.contacto-formulario h5,
+.contacto-formulario h2,
+.contacto-formulario h6 {
+  color: #333;
+}
+.contacto-formulario label {
+  color: #555;
+}
+.contacto-formulario input[type="text"],
+.contacto-formulario input[type="email"],
+.contacto-formulario textarea {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 8px;
+}
+.contacto-formulario button[type="submit"] {
+  background-color: #28a745;
+  border: none;
+}
+.contacto-formulario button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+/* Footer */
+footer a {
+  text-decoration: none;
+  color: rgb(239, 205, 33); 
+}

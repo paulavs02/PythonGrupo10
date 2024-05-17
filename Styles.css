@@ -98,3 +98,18 @@ footer a {
   text-decoration: none;
   color: rgb(239, 205, 33); 
 }
+
+.custom-banner {
+  height: 500px;
+  overflow: hidden;
+}
+
+.custom-banner .banner-item {
+  height: 100%;
+}
+
+.custom-banner .banner-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

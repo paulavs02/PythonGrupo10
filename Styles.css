@@ -13,6 +13,7 @@ body {
 .navbar-nav {
   display: flex;
   justify-content: right;
+  
 }
 .navbar-collapse {
   flex-grow: 0;
@@ -20,6 +21,10 @@ body {
 .navbar-nav a:last-child {
   color: rgb(231, 247, 89);
 }
+.oscurecer {
+  filter: brightness(50%);
+}
+
 
 /* Tarjetas de Jugador */
 .card-custom {

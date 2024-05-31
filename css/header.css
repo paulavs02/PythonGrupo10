@@ -1,0 +1,49 @@
+
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    min-width: 70px;
+    background-color: black;
+    align-items: center;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a {
+    font-weight: 600px;
+    padding-right: 40px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+nav a:last-child {
+    color: rgb(231, 247, 89);
+}
+
+@media (max-width:700px){
+    header {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        padding: 10px 15px;
+    }
+}

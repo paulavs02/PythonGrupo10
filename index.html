@@ -6,94 +6,59 @@
     <title>ProyectoPythonGrupo10</title>
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="./js/javascript.js"></script>
   </head>
   <body>
-      <header>
-          <a href="../Index.html" class="logo">
-              <img src="/images/logo.png" alt="Logo Free Fire">
-          </a>
-          <nav>
-              <a href="/pages/Torneo.html" class="nav-link">Torneo</a>
-              <a href="/pages/LugarFecha.html" class="nav-link">Fecha y Lugar</a>
-              <a href="/pages/Reglamento.html" class="nav-link">Reglamento</a>
-              <a href="/pages/Fixture.html" class="nav-link">Fixture</a>
-          </nav>
-      </header>
+    <!-- HEADER -->
+    <header>
+        <a href="./css/header.css" class="logo"> 
+          <img src="/images/logo.png" alt="Logo Free Fire">
+        </a>
+        <nav>
+          <a class="nav-link active" aria-current="page" href="/pages/Torneo.html" >Torneo</a>
+          <a class="nav-link" href="/pages/LugarFecha.html" class="nav-link">Fecha y Lugar</a>
+          <a class="nav-link" href="/pages/Reglamento.html" class="nav-link">Reglamento</a>
+          <a class="nav-link" href="/pages/Fixture.html" class="nav-link">Fixture</a>
+        </nav>
+    </header>
+    <!-- /HEADER -->
    
-   <!-- TORNEO -->
+    <!-- BANNER -->
 
     <section>
       <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
+        
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/images/dragon.jpg" class="d-block w-100 oscurecer" alt="...">
+            <img src="./images/dragon.jpg" class="d-block w-100 oscurecer" alt="dragon">
             <div class="carousel-caption d-none d-md-block">
               <div class="mt-4 text-end">
                 <h1>Copa FreeFire 2024</h1>
                 <p>Llega el mejor evento para que puedas demostrar tus habilidades junto a tu escuadra y ganar increibles premios. Te esperamos!.</p>
                 <div class="row">
-                  <div class="col"><a class="orador btn btn-outline-light text-white" href="#participar">Quiero ser participar</a></div>
-                  <div class="col"><a class="btn btn-success btn-primary" href="./Fixture.html">Fixture</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/payasos.jpg" class="d-block w-100 oscurecer" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mt-4 text-end">
-                <h1>Copa FreeFire 2024</h1>
-                <p>Llega el mejor evento para que puedas demostrar tus habilidades junto a tu escuadra y ganar increibles premios. Te esperamos!.</p>
-                <div class="row">
-                  <div class="col"><a class="orador btn btn-outline-light text-white" href="#participar">Quiero ser participar</a></div>
-                  <div class="col"><a class="btn btn-success btn-primary" href="./Fixture.html">Fixture</a></div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/images/futuro.jpg" class="d-block w-100 oscurecer" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mt-4 text-end">
-                <h1>Copa FreeFire 2024</h1>
-                <p>Llega el mejor evento para que puedas demostrar tus habilidades junto a tu escuadra y ganar increibles premios. Te esperamos!.</p>
-                <div class="row">
-                  <div class="col"><a class="orador btn btn-outline-light text-white" href="#participar">Quiero ser participar</a></div>
-                  <div class="col"><a class="btn btn-success btn-primary" href="./Fixture.html">Fixture</a></div>
+                  <div class="col"><a class="participar btn btn-outline-light text-white" href="#participar">Quiero participar</a></div>
+                  <div class="col"><a class="btn btn-success btn-primary" href="./pages/Fixture.html">Fixture</a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </section>
 
-
-
-    <!-- /TORNEO -->
+    <!-- /BANNER -->
 
 
     <!-- PERSONAJES -->
-   <section id="personajes" class="mt-4 mb-4">
-      <h6 class="text-center">Los</h6>
-      <h2 class="text-center mb-4">favoritos</h2>
+    <section id="personajes" class="mt-4 mb-4">
       <div class="row align-items-center justify-content-center">
+        <div class="favs">
+           <h2 class="text-center">Los favoritos</h2>
+         </div>
+
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="images/CharacterAlok.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterAlok.png" class="card-img-top" alt="alok">
             <div class="card-body">
               <h6 class="jugador-tag1">Activa</h6>
               <h6 class="jugador-tag2">Survival</h6>
@@ -104,7 +69,7 @@
         </div>
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="images/CharacterSonia.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterSonia.png" class="card-img-top" alt="sonia">
             <div class="card-body">
               <h6 class="jugador-tag1">Activa</h6>
               <h6 class="jugador-tag2">Survival</h6>
@@ -115,7 +80,7 @@
         </div>
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="images/CharacterCr7.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterCr7.png" class="card-img-top" alt="cr7">
             <div class="card-body">
               <h6 class="jugador-tag3">Pasiva</h6>
               <h6 class="jugador-tag4">Cazador</h6>
@@ -126,8 +91,8 @@
         </div>
       </div>
     </section>
-   <!-- /PERSONAJES -->
-
+   
+    <!-- /PERSONAJES -->
 
     <!-- LUGAR -->
     <section id="lugarfecha" class="mt-4 mb-4">
@@ -138,7 +103,7 @@
         <div class="col-lg-6 bg-dark d-none d-lg-block">
           <h3 class="text-white p-4">Copa FreeFire 2024</h3>
           <p class="text-white p-4">Participa junto a tu escuadra para ganar increibles premios. A medida que avancen de instancia podran ir acumulando diferentes skins para los personajes, skins de armas, diamantes y mucho mas.</p>
-          <button class="btn btn-primary m-4">Conocé más</button>
+          <button class="btn btn-primary m-4" href="./pages/Torneo.html">Conocé más</button>
         </div>
         <!-- version responsive -->
         <div class="col-12 mt-4 d-lg-none">
@@ -147,16 +112,13 @@
         <div class="col-12 bg-dark d-lg-none">
           <h3 class="text-white p-4">Bs As - Octubre</h3>
           <p class="text-white p-4">Participa junto a tu escuadra para ganar increibles premios. A medida que avancen de instancia podran ir acumulando diferentes skins para los personajes, skins de armas, diamantes y mucho mas.</p>
-          <button class="btn btn-primary m-4">Conocé más</button>
+          <button class="btn btn-primary m-4" href="./pages/Torneo.html">Conocé más</button>
         </div>
       </div>
     </section>
     <!-- /LUGAR --> 
 
-
-
-
-    <!-- /PARTICIPAR  -->
+    <!-- /FORMULARIO  -->
     <section id="participar" class="container mt-4 mb-4">
       <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -166,11 +128,11 @@
             <h6 class="mb-3 text-center contacto-h6">Anotate con tu escuadra para hacer Booyah! Contanos sobre sus habilidades preferidas!</h6>
             <div class="form-group">
               <label for="nombre">Nombre</label>
-              <input type="text" class="form-control mb-3" id="nombre" placeholder="Ingresa su nombre">
+              <input type="text" class="form-control mb-3" id="nombre" placeholder="Ingresa tu nombre">
             </div>
             <div class="form-group">
               <label for="apellido">Apellido</label>
-              <input type="text" class="form-control mb-3" id="apellido" placeholder="Ingresa su apellido">
+              <input type="text" class="form-control mb-3" id="apellido" placeholder="Ingresa tu apellido">
             </div>
             <div class="form-group">
               <label for="correo">E-mail</label>
@@ -180,14 +142,28 @@
               <label for="mensaje">Mensaje</label>
               <textarea class="form-control mb-3" id="mensaje" rows="4" placeholder="Contanos sobre tu escuadra"></textarea>
             </div>
+            <div class="form-group">
+              <label for="modo">En qué modo quieres participar?</label>
+              <select class="form-control mb-3" id="modo" name="modo">
+                <option value="" disabled selected>Selecciona un modo</option>
+                <option value="battle_royal">Battle Royal</option>
+                <option value="duelo_escuadra">Duelo de Escuadra</option>
+                <option value="ambos">Ambos</option>
+              </select>
+            </div>
+            <div class="form-group">
+             <label for="imagen">Sube el escudo de tu escuadra</label>
+             <input type="file" class="form-control mb-3" id="imagen" name="imagen">
+            </div>
             <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
           </form>
         </div>
       </div>
     </section>
 
-    <!-- /PARTICIPAR -->
-   
+    <!-- /FORMULARIO -->
+
+    <!-- FOOTER -->
     <footer class="footer">
       <ul class="social-icon">
           <li class="social-icon_item">
@@ -214,6 +190,7 @@
       <i class="fa-solid fa-phone"></i>
       <p>&copy;Free Fire | All Rights Reserved</p>
     </footer>
+    <!-- /FOOTER -->
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

@@ -4,11 +4,41 @@ body {
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  /* Establecer el fondo amarillo */
   background-color: rgba(235, 244, 155, 0.693);
 
 }
+/*Banner*/
+.carousel-item img {
+  max-width: 100%; /* Mantener el ancho original */
+  max-height: 650px; /* Establecer una altura máxima */
+  width: auto; /* Permitir que el ancho se ajuste automáticamente */
+  height: auto; /* Permitir que la altura se ajuste automáticamente */
+}
 
+
+/*Animación */
+.favs {
+  display: flex;
+  max-width: 280px;
+  justify-content: center;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.96);
+  animation-name: cambiarColor;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+@keyframes cambiarColor {
+  0% {
+       background-color: rgb(233, 249, 218);   /*color1*/
+  }  
+  50% {
+       background-color: #b7c2bb;   /*color2 */
+  }  
+  100% {
+       background-color: rgb(157, 157, 157);   /*color3 */
+  }  
+}
 /* Tarjetas de Jugador */
 .card-custom {
   display: flex;
@@ -25,18 +55,18 @@ body {
   border-radius: 20%;
 }
 .jugador-tag1 {
-  background-color: #fffb07;
+  background-color: #fffb079d;
 }
 .jugador-tag2 {
-  background-color: #4cb8b4;
+  background-color: #4cb8b57d;
   color: #fff;
 }
 .jugador-tag3 {
-  background-color: #2989e9;
+  background-color: #2989e96e;
   color: #fff;
 }
 .jugador-tag4 {
-  background-color: #de3647;
+  background-color: #de36475b;
   color: #fff;
 }
 

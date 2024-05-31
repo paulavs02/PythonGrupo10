@@ -1,11 +1,10 @@
-
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     min-width: 70px;
-    background-color: black;
-    align-items: center;
+    background-color: rgb(8, 14, 8);
     padding: 10px;
 }
 
@@ -13,6 +12,7 @@ a {
     color: white;
     text-decoration: none;
 }
+
 
 .logo {
     display: flex;
@@ -25,20 +25,28 @@ a {
     margin-right: 10px;
 }
 
-nav a {
-    font-weight: 600px;
-    padding-right: 40px;
+nav {
+    display: flex; /* Establece enlaces se en una fila */
+    align-items: center; /* Centra los enlaces verticalmente dentro del nav */
+    gap: 40px; /* Establece el espacio entre los enlaces */
 }
 
-nav a:hover {
-    color: red;
+nav a {
+    font-weight: 600; /* No era en px */
+    padding-right: 40px;
+}
+.nav-link {
+    color: rgb(67, 67, 48);
+}
+nav a.nav-link:hover {
+    color: rgb(254, 244, 66);
 }
 
 nav a:last-child {
     color: rgb(231, 247, 89);
 }
 
-@media (max-width:700px){
+@media (max-width: 700px) {
     header {
         flex-direction: column;
     }

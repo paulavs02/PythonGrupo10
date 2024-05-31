@@ -9,23 +9,6 @@ body {
 
 }
 
-/* Navbar */
-.navbar-nav {
-  display: flex;
-  justify-content: right;
-  
-}
-.navbar-collapse {
-  flex-grow: 0;
-}
-.navbar-nav a:last-child {
-  color: rgb(231, 247, 89);
-}
-.oscurecer {
-  filter: brightness(50%);
-}
-
-
 /* Tarjetas de Jugador */
 .card-custom {
   display: flex;
@@ -103,37 +86,3 @@ footer a {
   text-decoration: none;
   color: rgb(239, 205, 33); 
 }
-
-.custom-banner {
-  height: 500px;
-  overflow: hidden;
-}
-
-.custom-banner .banner-item {
-  height: 100%;
-}
-
-.custom-banner .banner-item img {
-  object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
-/* lugar y fecha */
-#lugar_fecha {
-  width: 100%;
-  height: 800px;
-  padding: 2%;
-  margin-top: 7%;
-  background-image: url("recursos/ciudad2.png");
-  
-}
-
-
-
-#presentacion{
-  color: #fff;
-    padding: 1%;
-  margin-top:2%;
-}
-

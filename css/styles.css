@@ -30,7 +30,7 @@ body {
 }
 @keyframes cambiarColor {
   0% {
-       background-color: rgb(233, 249, 218);   /*color1*/
+      background-color: rgb(233, 249, 218);   /*color1*/
   }  
   50% {
        background-color: #b7c2bb;   /*color2 */

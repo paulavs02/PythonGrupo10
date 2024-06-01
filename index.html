@@ -4,33 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>ProyectoPythonGrupo10</title>
-    <link rel="stylesheet" type="text/css" href="./Styles.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script defer src="./js/javascript.js"></script>
   </head>
   <body>
-    <!-- NAVBAR -->
+    <!-- HEADER -->
     <header>
-      <nav class="navbar bg-dark border-bottom fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-          <span class="navbar-brand mb-0 h1"><a href="./index.html"><img src="./recursos/logo.png" alt="Logo" width="130" height="75"></a>24
-          </span>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="./Torneo.html">El Torneo</a>
-            <a class="nav-link" href="./LugarFecha.html">El lugar y la fecha</a>
-            <a class="nav-link" href="./Reglamento.html">Reglamento</a>
-            <a class="nav-link" href="./Fixture">Fixture</a>
-          </div>
-          </div>
-        </div>
-      </nav>
+        <a href="./index.html" class="logo">  
+          <img src="images/logo.png" alt="Logo Free Fire">
+        </a>
+        <nav>
+          <a class="nav-link active" aria-current="page" href="/pages/Torneo.html" >Torneo</a>
+          <a class="nav-link" href="./pages/LugarFecha.html" class="nav-link">Fecha y Lugar</a>
+          <a class="nav-link" href="./pages/Reglamento.html" class="nav-link">Reglamento</a>
+          <a class="nav-link" href="./pages/Fixture.html" class="nav-link">Fixture</a>
+        </nav>
     </header>
-    <!-- /NAVBAR -->
-
-
+    <!-- /HEADER -->
+  
     <!-- BANNER -->
 
     <section>
@@ -38,37 +30,35 @@
         
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="/PythonGrupo10/recursos/dragon.jpg" class="d-block w-100 oscurecer" alt="...">
+            <img src="./images/dragon.jpg" class="d-block w-100 oscurecer" alt="dragon">
             <div class="carousel-caption d-none d-md-block">
               <div class="mt-4 text-end">
                 <h1>Copa FreeFire 2024</h1>
                 <p>Llega el mejor evento para que puedas demostrar tus habilidades junto a tu escuadra y ganar increibles premios. Te esperamos!.</p>
                 <div class="row">
                   <div class="col"><a class="participar btn btn-outline-light text-white" href="#participar">Quiero participar</a></div>
-                  <div class="col"><a class="btn btn-success btn-primary" href="./Fixture.html">Fixture</a></div>
+                  <div class="col"><a class="btn btn-success btn-primary" href="./pages/Fixture.html">Fixture</a></div>
                 </div>
               </div>
             </div>
           </div>
-          
         </div>
-
       </div>
     </section>
-
-
 
     <!-- /BANNER -->
 
 
     <!-- PERSONAJES -->
     <section id="personajes" class="mt-4 mb-4">
-      <h6 class="text-center">Los</h6>
-      <h2 class="text-center mb-4">favoritos</h2>
       <div class="row align-items-center justify-content-center">
+        <div class="favs">
+          <h2 class="text-center">Los favoritos</h2>
+        </div>
+
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="recursos/CharacterAlok.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterAlok.png" class="card-img-top" alt="alok">
             <div class="card-body">
               <h6 class="jugador-tag1">Activa</h6>
               <h6 class="jugador-tag2">Survival</h6>
@@ -79,7 +69,7 @@
         </div>
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="recursos/CharacterSonia.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterSonia.png" class="card-img-top" alt="sonia">
             <div class="card-body">
               <h6 class="jugador-tag1">Activa</h6>
               <h6 class="jugador-tag2">Survival</h6>
@@ -90,7 +80,7 @@
         </div>
         <div class="col-auto">
           <div class="card card-custom mb-4">
-            <img src="recursos/CharacterCr7.png" class="card-img-top" alt="...">
+            <img src="./images/CharacterCr7.png" class="card-img-top" alt="cr7">
             <div class="card-body">
               <h6 class="jugador-tag3">Pasiva</h6>
               <h6 class="jugador-tag4">Cazador</h6>
@@ -101,37 +91,34 @@
         </div>
       </div>
     </section>
+  
     <!-- /PERSONAJES -->
-
 
     <!-- LUGAR -->
     <section id="lugarfecha" class="mt-4 mb-4">
       <div class="row">
         <div class="col-lg-6 d-none d-lg-block">
-          <img src="recursos/img1.png" alt="Imagen" class="img1">
+          <img src="images/img1.png" alt="Imagen" class="img1">
         </div>
         <div class="col-lg-6 bg-dark d-none d-lg-block">
           <h3 class="text-white p-4">Copa FreeFire 2024</h3>
           <p class="text-white p-4">Participa junto a tu escuadra para ganar increibles premios. A medida que avancen de instancia podran ir acumulando diferentes skins para los personajes, skins de armas, diamantes y mucho mas.</p>
-          <button class="btn btn-primary m-4">Conocé más</button>
+          <button class="btn btn-primary m-4" href="./pages/Torneo.html">Conocé más</button>
         </div>
         <!-- version responsive -->
         <div class="col-12 mt-4 d-lg-none">
           <img src="recursos/img1.png" alt="Imagen" class="img1">
         </div>
         <div class="col-12 bg-dark d-lg-none">
-          <h3 class="text-white p-4">Copa FreeFire 2024</h3>
+          <h3 class="text-white p-4">Bs As - Octubre</h3>
           <p class="text-white p-4">Participa junto a tu escuadra para ganar increibles premios. A medida que avancen de instancia podran ir acumulando diferentes skins para los personajes, skins de armas, diamantes y mucho mas.</p>
-          <button class="btn btn-primary m-4">Conocé más</button>
+          <button class="btn btn-primary m-4" href="./pages/Torneo.html">Conocé más</button>
         </div>
       </div>
     </section>
     <!-- /LUGAR --> 
 
-
-
-
-    <!-- /PARTICIPAR  -->
+    <!-- /FORMULARIO  -->
     <section id="participar" class="container mt-4 mb-4">
       <div class="row">
         <div class="col-md-6 offset-md-3">
@@ -141,7 +128,7 @@
             <h6 class="mb-3 text-center contacto-h6">Anotate con tu escuadra para hacer Booyah! Contanos sobre sus habilidades preferidas!</h6>
             <div class="form-group">
               <label for="nombre">Nombre</label>
-              <input type="text" class="form-control mb-3" id="nombre" placeholder="Ingresa su nombre">
+              <input type="text" class="form-control mb-3" id="nombre" placeholder="Ingresa tu nombre">
             </div>
             <div class="form-group">
               <label for="apellido">Apellido</label>
@@ -155,36 +142,58 @@
               <label for="mensaje">Mensaje</label>
               <textarea class="form-control mb-3" id="mensaje" rows="4" placeholder="Contanos sobre tu escuadra"></textarea>
             </div>
+            <div class="form-group">
+              <label for="modo">En qué modo quieres participar?</label>
+              <select class="form-control mb-3" id="modo" name="modo">
+                <option value="" disabled selected>Selecciona un modo</option>
+                <option value="battle_royal">Battle Royal</option>
+                <option value="duelo_escuadra">Duelo de Escuadra</option>
+                <option value="ambos">Ambos</option>
+              </select>
+            </div>
+            <div class="form-group">
+            <label for="imagen">Sube el escudo de tu escuadra</label>
+            <input type="file" class="form-control mb-3" id="imagen" name="imagen">
+            </div>
             <button type="submit" class="btn btn-success btn-lg btn-block">Enviar</button>
           </form>
         </div>
       </div>
     </section>
 
-    <!-- /PARTICIPAR -->
-
+    <!-- /FORMULARIO -->
 
     <!-- FOOTER -->
-    <footer class="bg-dark text-light p-4">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <ul class="list-inline text-center flex-column flex-md-row">
-              <li class="list-inline-item"><a href="#">FB</a></li>
-              <li class="list-inline-item"><a href="#">IG</a></li>
-              <li class="list-inline-item"><a href="#">X</a></li>
-              <li class="list-inline-item"><a href="#">YT</a></li>
-              <li class="list-inline-item"><a href="#">DC</a></li>
-              
-              <p> Trabajo Practico Integrador - Python - CAC2024</p>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <footer class="footer">
+      <ul class="social-icon">
+          <li class="social-icon_item">
+              <a class="social-icon_link" target="_blank" href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li class="social-icon_item">
+              <a class="social-icon_link" target="_blank" href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+          <li class="social-icon_item">
+              <a class="social-icon_link" target="_blank" href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+      </ul>
+      <ul class="menu">
+          <li class="menu_item"><a class="menu_link" href="/pages/Torneo.html">Torneo</a></li>
+          <li class="menu_item"><a class="menu_link" href="/pages/LugarFecha.html">Fecha y Lugar</a></li>
+          <li class="menu_item"><a class="menu_link" href="/pages/Reglamento.html">Reglamento</a></li>
+          <li class="menu_item"><a class="menu_link" href="/pages/Fixture.html">Fixture</a></li>
+      </ul>
+      <picture class="header_logo_image">
+          <a href="./index.html">
+              <img src="../images/logo.png">
+          </a>
+      </picture>
+      <i class="fa-solid fa-phone"></i>
+      <p>&copy;Free Fire | All Rights Reserved</p>
     </footer>
     <!-- /FOOTER -->
 
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
   </body>
 </html>

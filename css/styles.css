@@ -111,6 +111,24 @@ body {
   background-color: #218838;
 }
 
+/* lugar y fecha */
+#lugar_fecha {
+  width: 100%;
+  height: 800px;
+  padding: 2%;
+  margin-top: 0%;
+  background-image: url("../images/ciudad2.png");
+  
+}
+
+
+
+#presentacion{
+  color: #ffffff;
+  padding: 1%;
+  margin-top:2%;
+}
+
 /* Footer */
 footer a {
   text-decoration: none;

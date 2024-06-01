@@ -4,10 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
 /* Header */
-@import url(/css/header.css);
+@import url(./header.css);
 
 /* Footer */
-@import url(/css/footer.css);
+@import url(./footer.css);
 
 /* Pages */
-@import url(/css/styles.css);
+@import url(./styles.css);

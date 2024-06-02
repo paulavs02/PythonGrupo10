@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
     <title>ProyectoPythonGrupo10</title>
     <link rel="stylesheet" type="text/css" href="../css/index.css">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script defer src="./js/javascript.js"></script>
-</head>
-<body>
+ </head>
+ <body>
+
     <!-- HEADER -->
     <header>
         <a href="../index.html" class="logo"> 
@@ -23,17 +26,45 @@
     </header>
     <!-- /HEADER -->
     
+
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar bg-dark border-bottom fixed-top navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1"><a href="./Index.html"><img src="./images/logo.png" alt="Logo" width="130" height="75"></a></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./pages/Torneo.html">El Torneo</a>
+                        <a class="nav-link" href="./pages/LugarFecha.html">El lugar y la fecha</a>
+                        <a class="nav-link" href="./pages/Reglamento.html">Reglamento</a>
+                        <a class="nav-link" href="./pages/Fixture.html">Fixture</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- /NAVBAR -->
+
+
     <!-- BANNER -->
     <section>
         <div id="carouselExampleCaptions" class="carousel slide custom-banner" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
+
                     <img src="/images/trofeo.png" class="d-block w-100 oscurecer" alt="Trofeo">
+
                     <div class="carousel-caption d-none d-md-block">
                         <div class="mt-4 text-end">
                             <h1>Copa FreeFire 2024</h1>
                             <p>Llega el mejor evento para que puedas demostrar tus habilidades junto a tu escuadra y ganar increíbles premios. ¡Te esperamos!</p>
                             <div class="row">
+
+                                <div class="col"><a class="orador btn btn-outline-light text-white" href="#participar">Quiero participar</a></div>
                                 <div class="col"><a class="btn btn-success btn-primary" href="./Fixture.html">Fixture</a></div>
                             </div>
                         </div>
@@ -47,6 +78,44 @@
     
     <!-- TORNEO -->
     <section class="container my-5">
+
+                <!-- Additional carousel items -->
+                <div class="carousel-item">
+                    <img src="./images/bermuda-map.jpg" class="d-block w-100 oscurecer" alt="Map">
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="mt-4 text-end">
+                            <h5>Subtítulo Imagen 2</h5>
+                            <p>Descripción de la Imagen 2.</p>
+                            <div class="row">
+                                <div class="col"><a class="orador btn btn-outline-light text-white" href="#participar">Quiero participar</a></div>
+                                <div class="col"><a class="btn btn-success btn-primary" href="./pages/Fixture.html">Fixture</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/futuro.jpg" class="d-block w-100 oscurecer" alt="Imagen 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Subtítulo Imagen 3</h5>
+                        <p>Descripción de la Imagen 3.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- /BANNER -->
+
+    <!-- TORNEO -->
+    <section class="container mt-5 pt-5">
+
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
                 <h2>Detalles del Torneo</h2>
@@ -72,6 +141,14 @@
                     <li><strong>
                         Premio Especial: Medallas para todos los miembros del equipo ganador y mercancía exclusiva de FreeFire.</li></strong>
                         <p>Además del trofeo y el premio en efectivo, los campeones recibirán medallas conmemorativas que podrán llevar con orgullo. También recibirán productos exclusivos de FreeFire, incluyendo camisetas, gorras y otros artículos de colección que celebran su victoria y les permiten mostrar su amor por el juego.</p>
+                <p>El torneo será de tipo eliminación directa, donde cada equipo competirá en rondas sucesivas hasta que solo quede un ganador. Los equipos se enfrentarán en partidas de FreeFire, demostrando sus habilidades y estrategias.</p>
+
+                <h2>Premios</h2>
+                <ul>
+                    <li><strong>Primer Lugar:</strong> U$S5,000 en efectivo y trofeo del campeonato.</li>
+                    <li><strong>Segundo Lugar:</strong> U$S2,500 en efectivo.</li>
+                    <li><strong>Tercer Lugar:</strong> U$S1,000 en efectivo.</li>
+                    <li><strong>Premio Especial:</strong> Medallas para todos los miembros del equipo ganador y merchandise de FreeFire.</li>
                 </ul>
             </div>
         </div>
@@ -79,6 +156,7 @@
     <!-- /TORNEO -->
 
     <!-- FOOTER -->
+
     <footer class="footer">
         <ul class="social-icon">
             <li class="social-icon_item">
@@ -113,5 +191,27 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     
 
+    <footer class="bg-dark text-light p-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <ul class="list-inline text-center flex-column flex-md-row">
+                        <li class="list-inline-item"><a href="#">Preguntas Frecuentes</a></li>
+                        <li class="list-inline-item"><a href="#">Contáctanos</a></li>
+                        <li class="list-inline-item"><a href="#">Sponsors</a></li>
+                        <li class="list-inline-item"><a href="#">Términos y Condiciones</a></li>
+                        <li class="list-inline-item"><a href="#">Privacidad</a></li>
+                        <li class="list-inline-item"><a href="#">Streamers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybBogGzHfQ5SA6L4FvMXgiPR+ujRHP+0Ck2wI0XK2aDZRd4ju" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-cuNTG+uaT2EqPsMeUXE7t5u4J5Be6z9P9YcuEnA/91ZoPaToV3BIpC//G4pOGti" crossorigin="anonymous"></script>
+    <script src="./javascript.js"></script>
 </body>
 </html>
